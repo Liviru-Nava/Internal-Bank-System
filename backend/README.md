@@ -48,7 +48,7 @@ To set up the project on your local machine, follow the instructions below.
    }
    ```
 
-### Setting Up Environment Variables:
+### Setting Up Environment Variables
   a. **Create a .env file in the backend folder root:**
    ```bash
    touch .env
@@ -65,14 +65,14 @@ To set up the project on your local machine, follow the instructions below.
   ```
   Replace your_db_host, your_db_user, your_db_password, your_db_name, and your_jwt_secret_key with your actual MySQL database credentials and a secret key for JWT tokens.
 
-### Start the server:
+### Start the server
   Start the Node.js server: Run the following command in the backend folder:
    ```bash
    npm start
    ```
    **Verify the server is running:** Open your browser or Postman and navigate to http://localhost:5000. If everything is set up correctly, you should see a response from the server.
 
-### API Endpoints: 
+### API Endpoints 
 
    Below is a list of primary API endpoints available:
 
