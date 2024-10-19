@@ -7,7 +7,6 @@ This is the Internal Banking System project, consisting of a backend built with 
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
-- [Setting Up Environment Variables](#setting-up-environment-variables)
 - [Starting the Server](#starting-the-server)
 - [API Endpoints](#api-endpoints)
 - [Database Setup](#database-setup)
@@ -33,7 +32,7 @@ To set up the project on your local machine, follow the instructions below.
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Liviru-Nava/Internal-Bank-System.git
    cd Internal-Banking-System/backend
 
 2. **Install dependencies:**
@@ -49,13 +48,13 @@ To set up the project on your local machine, follow the instructions below.
    }
    ```
 
-3. **Setting Up Environment Variables:**
+### Setting Up Environment Variables:
   a. **Create a .env file in the backend folder root:**
    ```bash
    touch .env
   ``` 
   b. **Add the following environment variables to the .env file:**
-  ```bash
+   ```bash
     PORT = 5000
     DB_HOST = your_db_host
     DB_USER = your_db_user
@@ -66,14 +65,14 @@ To set up the project on your local machine, follow the instructions below.
   ```
   Replace your_db_host, your_db_user, your_db_password, your_db_name, and your_jwt_secret_key with your actual MySQL database credentials and a secret key for JWT tokens.
 
-4. **Start the server:**
+### Start the server:
   Start the Node.js server: Run the following command in the backend folder:
    ```bash
    npm start
    ```
    **Verify the server is running:** Open your browser or Postman and navigate to http://localhost:5000. If everything is set up correctly, you should see a response from the server.
 
-5. **API Endpoints**
+### API Endpoints: 
 
    Below is a list of primary API endpoints available:
 
@@ -102,10 +101,10 @@ To set up the project on your local machine, follow the instructions below.
         GET /transactions/:account_no - Get transaction history for a specific account.
         GET /transactions/branch/:branch_id - Get transactions for a specific branch.
 
-6. **Git Ignore Configuration**
+### Git Ignore Configuration 
    Include the following content in the .gitignore file to prevent sensitive files like node_modules and .env from being uploaded to the repository:
 
-#### .gitignore
+ **.gitignore**
    ```bash
    # Node modules
    node_modules/
