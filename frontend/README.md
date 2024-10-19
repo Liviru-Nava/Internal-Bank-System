@@ -1,4 +1,4 @@
-# Banking Application
+# Internal Banking System
 React application development
 
 ## Technologies
@@ -45,4 +45,4 @@ command Line:
 
 ### Inatall Required Packages
 The jsPDF and html2canvas libraries for PDF generation(For PDF)
-> npm install jspdf html2canvas 
+> npm install jspdf html2canvas axios jwt-decode react react-dom react-google-recaptcha react-router-dom react-toastify recharts
