@@ -7,9 +7,8 @@ This is the Internal Banking System project, consisting of a backend built with 
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
-- [Starting the Server](https://github.com/Liviru-Nava/Internal-Bank-System/tree/main/backend#setting-up-environment-variables)
+- [Starting the Server](https://github.com/Liviru-Nava/Internal-Bank-System/blob/main/backend#setting-up-environment-variables)
 - [API Endpoints](#api-endpoints)
-- [Database Setup](#database-setup)
 - [Security Considerations](#security-considerations)
 - [Git Ignore Configuration](#git-ignore-configuration)
 
