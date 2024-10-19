@@ -75,30 +75,26 @@ To set up the project on your local machine, follow the instructions below.
 
    Below is a list of primary API endpoints available:
 
-    Authentication:
-   
-        POST /auth/login - Log in and receive a JWT token.
-        POST /auth/register - Register a new user (restricted to admins).
+- **Authentication**:
+  - `POST /auth/login` - Log in and receive a JWT token.
+  - `POST /auth/register` - Register a new user (restricted to admins).
 
-    Customer Management:
-   
-        GET /customers/:nic - Retrieve customer details by NIC.
-        POST /customers/create - Create a new customer.
-        PUT /customers/:customer_id - Update customer details.
+- **Customer Management**:
+  - `GET /customers/:nic` - Retrieve customer details by NIC.
+  - `POST /customers/create` - Create a new customer.
+  - `PUT /customers/:customer_id` - Update customer details.
 
-    Bank Account Management:
-   
-        GET /accounts/next-account - Fetch the next available account number.
-        POST /accounts/create - Create a new bank account.
-        GET /accounts/:account_no - Get details of an account by account number.
-        GET /accounts - Get all accounts.
+- **Account Management**:
+  - `GET /accounts/next-account` - Fetch the next available account number.
+  - `POST /accounts/create` - Create a new bank account.
+  - `GET /accounts/:account_no` - Get details of an account by account number.
+  - `GET /accounts` - Get all accounts.
 
-    Transactions:
-   
-        POST /transactions/withdraw - Withdraw an amount from an account.
-        POST /transactions/deposit - Deposit an amount to an account.
-        GET /transactions/:account_no - Get transaction history for a specific account.
-        GET /transactions/branch/:branch_id - Get transactions for a specific branch.
+- **Transactions**:
+  - `POST /transactions/withdraw` - Withdraw an amount from an account.
+  - `POST /transactions/deposit` - Deposit an amount to an account.
+  - `GET /transactions/:account_no` - Get transaction history for a specific account.
+  - `GET /transactions/branch/:branch_id` - Get transactions for a specific branch
 
 ### Git Ignore Configuration 
    Include the following content in the .gitignore file to prevent sensitive files like node_modules and .env from being uploaded to the repository:
